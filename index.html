@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quản lý khách </title>
+    <script src="khachhang.js"></script>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+<marquee style="...">Nguyen Huy Hoan C1020-G2</marquee>
+<ul>
+    <h1> Quản lý khách hàng vay</h1>
+</ul>
+<form>
+    <fieldset>
+        <legend><h2>Khách hàng vay vốn</h2></legend>
+        <div>Số thứ tự:<br><input type="number" id="customer-stt" placeholder="Stt khách hàng" style="text-align: center"><br>
+            Công việc:<br><input type="text" id="customer-job" placeholder="Công việc" style="text-align: center"><br>
+            Thời gian vay:<br><input type="date" id="customer-time" style="text-align: center"><br></div>
+        <div>Họ và tên:<br><input type="text" id="customer-name" placeholder="Họ tên" style="text-align: center"><br>
+            Thu nhập:<br><input type="number" id="customer-income" placeholder="Thu nhập" style="text-align: center"><br>
+            Thời hạn vay:<br><input type="date" id="customer-tenor" style="text-align: center"><br></div>
+        <div>So CMND:<br><input type="text" id="customer-numbercard" placeholder="So CMND" style="text-align: center"><br>
+            TSĐB:<br><input type="text" id="customer-collateral" placeholder="Tài sản thế chấp" style="text-align: center"><br>
+            Ngày trả nợ:<br><input type="date" id="customer-timepay" style="text-align: center"style="text-align: center"></div>
+        <div><button type="button" onclick="addCustomer()">Add</button></div>
+    </fieldset>
+</form>
+<form>
+    <fieldset>
+        <legend><h2>Thay đổi thông tin khách </h2></legend>
+        <input type="number" id="edit-stt" placeholder="Stt khách hàng">
+        <input type="text" id="edit-name" placeholder="Họ tên">
+        <input type="text" id="edit-numbercard" placeholder="So CMND">
+        <input type="text" id="edit-job" placeholder="Công việc">
+        <input type="number" id="edit-income" placeholder="Thu nhập">
+        <input type="text" id="edit-collateral" placeholder="Tài sản thế ">
+        <input type="date" id="edit-time" placeholder="Thời gian vay">
+        <input type="date" id="edit-tenor" placeholder="Thời hạn vay">
+        <input type="date" id="edit-timepay" placeholder="Ngày t.t khoản vay">
+        <button type="button" onclick="updateCustomer()">Update</button>
+    </fieldset>
+    </form>
+<table  id="table3" border="1px">
+    <tr>
+        <th>STT</th>
+        <th>NAME</th>
+        <th>JOB</th>
+        <th>NUMBERCARD</th>
+        <th>INCOME</th>
+        <th>COLLATERAL</th>
+        <th>TIME</th>
+        <th>TENOR</th>
+        <th>TIMEPAY</th>
+        <th colspan="2">ACTION</th>
+        <th id="note">NOTE</th>
+    </tr>
+    <tbody id="table-render"></tbody>
+</table>
+
+<script src="quanly.js"></script>
+
+</body>
+</html>
