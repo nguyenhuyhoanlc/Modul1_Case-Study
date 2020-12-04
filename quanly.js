@@ -1,7 +1,7 @@
-let customeres = loadData();
+// let customeres = loadData();
 
-function saveData(){
-    window.localStorage.setItem('customeres',JSON.stringify(customeres));
+function saveData(data){
+    window.localStorage.setItem('customeres',JSON.stringify(data));
 }
 
 function loadData(){
