@@ -1,5 +1,5 @@
 class Khachhang {
-    constructor(stt, name, numbercard, job, income, collateral, time, tenor, timepay, note) {
+    constructor(name, numbercard, stt, job, income, collateral, time, tenor, timepay) {
         this.stt = stt;
         this.name = name;
         this.income = income;
@@ -8,7 +8,6 @@ class Khachhang {
         this.tenor = tenor;
         this.timepay = timepay;
         this.job = job;
-        this.note = note;
         this.numbercard = numbercard
     }
 }

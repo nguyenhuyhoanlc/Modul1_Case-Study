@@ -1,45 +1,72 @@
-input   {
-    background: white;
-}
 body {
-   background: cornflowerblue;
+    font-family: "Times New Roman", sans-serif;
+    background-color: cadetblue;
+    background-attachment: fixed;
+    background-image: url("img.jpg") ;
     background-size: 100%;
 }
 
-form {
-    background: white;
+input[type=text], input[type=date] {
+    width: 97%;
+    padding: 12px;
+    margin: 5px 0 20px 0;
+    display: inline-block;
+    border: black;
+    background: #f1f1f1;
+    height: 40px;
+    border-radius: 10px;
 }
-h1 {
-    text-align: center;
-    color: black;
-}
+
 legend{
     text-align: center;
     color: black;
-    font-size: 25px;
 }
- div{
-    margin: 0 auto;
-     float: left;
-     padding: 50px;
-     text-align: center;
- }
 
- button{
+h1{
+    text-align: center;
+    color: firebrick;
 
- }
+}
 
- table{
+fieldset {
+    border-radius: 10px;
+    background: pink;
+}
 
-     background-color: white;
- }
-th{
+
+form {
+    display: inline-block;
+    float: left;
+    width: 700px;
+}
+
+table {
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 1420px;
+    height: 50px;
+    background-color: pink;
+}
+
+td {
+    text-align: center;
+    font-size: 20px;
+    background: pink;
+
+}
+
+th {
+    border-radius: 10px;
+    background: aqua;
+}
+
+div{
+    text-align: center;
     color: black;
-    font-size: 25px;
 }
 
-table.center {
-    width: 780px;
-    margin-left: auto;
-    margin-right: auto;
+button {
+    border-radius: 10px;
+    width: 60px;
+    height: 30px;
 }

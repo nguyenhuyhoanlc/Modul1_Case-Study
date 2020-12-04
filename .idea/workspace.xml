@@ -19,7 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="116f3b81-f553-4437-8925-f6206412b76f" name="Default Changelist" comment="" />
+    <list default="true" id="116f3b81-f553-4437-8925-f6206412b76f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khachhang.js" beforeDir="false" afterPath="$PROJECT_DIR$/khachhang.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quanly.js" beforeDir="false" afterPath="$PROJECT_DIR$/quanly.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +37,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -43,6 +51,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -73,7 +82,11 @@
       <workItem from="1604048232862" duration="3506000" />
       <workItem from="1604111121562" duration="1384000" />
       <workItem from="1604248293182" duration="4509000" />
-      <workItem from="1606870953569" duration="18457000" />
+      <workItem from="1606870953569" duration="18764000" />
+      <workItem from="1606958057963" duration="4942000" />
+      <workItem from="1606966496143" duration="427000" />
+      <workItem from="1606982476374" duration="11218000" />
+      <workItem from="1607043035702" duration="585000" />
     </task>
     <servers />
   </component>
@@ -93,6 +106,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="354" y="132" key="#Inspections" timestamp="1607004796081">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="354" y="132" key="#Inspections/0.0.1440.900@0.0.1440.900" timestamp="1607004796081" />
     <state x="453" y="255" key="#Notifications" timestamp="1606870964423">
       <screen x="0" y="25" width="1440" height="805" />
     </state>
